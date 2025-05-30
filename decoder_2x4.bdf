@@ -270,7 +270,7 @@ applicable agreement for further details.
 	(flipx)
 )
 (symbol
-	(rect 280 320 328 352)
+	(rect 424 320 472 352)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst7" (rect 3 20 26 32)(font "Arial" ))
 	(port
@@ -299,36 +299,12 @@ applicable agreement for further details.
 	(pt 680 488)
 )
 (connector
-	(pt 504 504)
-	(pt 680 504)
-)
-(connector
 	(pt 416 248)
 	(pt 416 328)
 )
 (connector
 	(pt 368 408)
 	(pt 680 408)
-)
-(connector
-	(pt 680 424)
-	(pt 552 424)
-)
-(connector
-	(pt 672 264)
-	(pt 672 288)
-)
-(connector
-	(pt 680 264)
-	(pt 672 264)
-)
-(connector
-	(pt 672 288)
-	(pt 552 288)
-)
-(connector
-	(pt 504 344)
-	(pt 680 344)
 )
 (connector
 	(pt 248 248)
@@ -339,28 +315,8 @@ applicable agreement for further details.
 	(pt 248 224)
 )
 (connector
-	(pt 552 336)
-	(pt 328 336)
-)
-(connector
-	(pt 248 336)
-	(pt 280 336)
-)
-(connector
-	(pt 248 304)
-	(pt 248 336)
-)
-(connector
 	(pt 328 248)
 	(pt 416 248)
-)
-(connector
-	(pt 504 304)
-	(pt 504 344)
-)
-(connector
-	(pt 504 344)
-	(pt 504 504)
 )
 (connector
 	(pt 368 224)
@@ -379,22 +335,6 @@ applicable agreement for further details.
 	(pt 368 224)
 )
 (connector
-	(pt 552 288)
-	(pt 552 336)
-)
-(connector
-	(pt 552 336)
-	(pt 552 424)
-)
-(connector
-	(pt 224 304)
-	(pt 248 304)
-)
-(connector
-	(pt 248 304)
-	(pt 504 304)
-)
-(connector
 	(pt 416 248)
 	(pt 680 248)
 )
@@ -402,9 +342,61 @@ applicable agreement for further details.
 	(pt 416 328)
 	(pt 680 328)
 )
+(connector
+	(pt 680 504)
+	(pt 576 504)
+)
+(connector
+	(pt 576 344)
+	(pt 680 344)
+)
+(connector
+	(pt 576 304)
+	(pt 576 344)
+)
+(connector
+	(pt 576 344)
+	(pt 576 504)
+)
+(connector
+	(pt 248 304)
+	(pt 248 336)
+)
+(connector
+	(pt 224 304)
+	(pt 248 304)
+)
+(connector
+	(pt 248 304)
+	(pt 576 304)
+)
+(connector
+	(pt 248 336)
+	(pt 424 336)
+)
+(connector
+	(pt 680 264)
+	(pt 640 264)
+)
+(connector
+	(pt 680 424)
+	(pt 640 424)
+)
+(connector
+	(pt 640 264)
+	(pt 640 336)
+)
+(connector
+	(pt 640 336)
+	(pt 640 424)
+)
+(connector
+	(pt 472 336)
+	(pt 640 336)
+)
 (junction (pt 416 248))
-(junction (pt 504 344))
 (junction (pt 368 408))
 (junction (pt 248 224))
-(junction (pt 552 336))
 (junction (pt 248 304))
+(junction (pt 576 344))
+(junction (pt 640 336))

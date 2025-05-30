@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 128 88 296 104)
+	(rect 128 96 296 112)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "INVA" (rect 5 0 32 12)(font "Arial" ))
 	(pt 168 8)
@@ -493,14 +493,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 296 96)
-	(pt 376 96)
-)
-(connector
-	(pt 376 96)
-	(pt 376 128)
-)
-(connector
 	(pt 392 128)
 	(pt 376 128)
 )
@@ -691,6 +683,14 @@ applicable agreement for further details.
 (connector
 	(pt 752 208)
 	(pt 736 208)
+)
+(connector
+	(pt 376 128)
+	(pt 376 104)
+)
+(connector
+	(pt 376 104)
+	(pt 296 104)
 )
 (junction (pt 376 144))
 (junction (pt 432 200))
