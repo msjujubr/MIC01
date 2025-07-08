@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY Shifter
+set_global_assignment -name TOP_LEVEL_ENTITY REGISTER_8bit
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:17:07  APRIL 09, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -61,12 +61,20 @@ set_global_assignment -name BDF_FILE ULA_32bits.bdf
 set_global_assignment -name BDF_FILE Shifter.bdf
 set_global_assignment -name BDF_FILE Register_3bits.bdf
 set_global_assignment -name BDF_FILE Register_1bit.bdf
-set_global_assignment -name BDF_FILE Register_8bit.bdf
 set_global_assignment -name BDF_FILE Register_32bit.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_8bits.vwf
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_32bits.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Desktop/JULIA-aoc/ULA_32bits.vwf"
+set_global_assignment -name BDF_FILE SRA01.bdf
+set_global_assignment -name BDF_FILE SLL8.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SHIFTER.vwf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity SHIFTER -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity SHIFTER -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity SHIFTER -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity SHIFTER -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Desktop/novo/MIC01-main/SHIFTER.vwf"
+set_global_assignment -name BDF_FILE REGISTER_1bit.bdf
+set_global_assignment -name BDF_FILE REGISTER_8bit.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
