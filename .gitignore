@@ -1,0 +1,6 @@
+#ignore directories
+/db/
+/incremental_db/
+/output_files/
+/simulation/
+/greybox_tmp/
