@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY mpc_generator
+set_global_assignment -name TOP_LEVEL_ENTITY CONTROL_UNIT
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:18:53  APRIL 03, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -49,6 +49,10 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE CONTROL_UNIT_istore.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CONTROL_UNIT_iload.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CONTROL_UNIT_iadd_isub.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CONTROL_UNIT_bipush.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE SHIFTER.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE REGISTER8bit.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_8bit_OR.vwf
@@ -77,9 +81,27 @@ set_global_assignment -name BDF_FILE sra1.bdf
 set_global_assignment -name BDF_FILE sll8.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE REGISTER32bit.vwf
 set_global_assignment -name BDF_FILE mpc_generator.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE mpc_generator.vwf
+set_global_assignment -name BDF_FILE MAR.bdf
+set_global_assignment -name BDF_FILE MDR.bdf
+set_global_assignment -name BDF_FILE PC.bdf
+set_global_assignment -name BDF_FILE mbr_extensor.bdf
+set_global_assignment -name BDF_FILE MBR.bdf
+set_global_assignment -name BDF_FILE LV_initial_address.bdf
+set_global_assignment -name BDF_FILE SP.bdf
+set_global_assignment -name BDF_FILE LV.bdf
+set_global_assignment -name BDF_FILE CPP_initial_address.bdf
+set_global_assignment -name BDF_FILE CPP.bdf
+set_global_assignment -name BDF_FILE TOS.bdf
+set_global_assignment -name BDF_FILE OPC.bdf
+set_global_assignment -name BDF_FILE H.bdf
+set_global_assignment -name BDF_FILE BANK_REGS.bdf
+set_global_assignment -name BDF_FILE ULA_SHIFTER.bdf
+set_global_assignment -name BDF_FILE DATA_PATH.bdf
+set_global_assignment -name QIP_FILE ROM.qip
+set_global_assignment -name BDF_FILE CONTROL_UNIT.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE mpc_generator.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/joaov/Documents/GitHub_Projects/MIC01/mpc_generator.vwf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/joaov/Documents/GitHub_Projects/MIC01/CONTROL_UNIT_bipush.vwf"
