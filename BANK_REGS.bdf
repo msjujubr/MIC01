@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 128 352 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN_C[31..0]" (rect 5 0 63 12)(font "Arial" ))
+	(text "IN_C[31..0]" (rect 5 0 62 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 168 352 184)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MIR[35..0]" (rect 5 0 57 12)(font "Arial" ))
+	(text "MIR[35..0]" (rect 5 0 56 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 200 352 216)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "LOAD" (rect 5 0 35 12)(font "Arial" ))
+	(text "LOAD" (rect 5 0 34 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 232 352 248)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLOCK" (rect 5 0 43 12)(font "Arial" ))
+	(text "CLOCK" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 416 536 584 552)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MBR_IN[7..0]" (rect 5 0 73 12)(font "Arial" ))
+	(text "MBR_IN[7..0]" (rect 5 0 72 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(input)
 	(rect 200 296 376 312)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "MDR_IN[31..0]" (rect 5 0 80 12)(font "Arial" ))
+	(text "MDR_IN[31..0]" (rect 5 0 79 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -418,9 +418,9 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -457,13 +457,13 @@ applicable agreement for further details.
 (symbol
 	(rect 608 792 800 920)
 	(text "LV" (rect 5 0 21 14)(font "Arial" (font_size 8)))
-	(text "inst5" (rect 8 112 31 124)(font "Arial" ))
+	(text "inst10" (rect 8 112 37 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -500,13 +500,13 @@ applicable agreement for further details.
 (symbol
 	(rect 608 936 800 1064)
 	(text "CPP" (rect 5 0 27 14)(font "Arial" (font_size 8)))
-	(text "inst6" (rect 8 112 31 124)(font "Arial" ))
+	(text "inst11" (rect 8 112 37 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -541,15 +541,15 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 608 1072 800 1200)
+	(rect 608 1064 800 1192)
 	(text "TOS" (rect 5 0 29 14)(font "Arial" (font_size 8)))
-	(text "inst7" (rect 8 112 31 124)(font "Arial" ))
+	(text "inst12" (rect 8 112 37 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -586,13 +586,13 @@ applicable agreement for further details.
 (symbol
 	(rect 608 1208 800 1336)
 	(text "OPC" (rect 5 0 29 14)(font "Arial" (font_size 8)))
-	(text "inst8" (rect 8 112 31 124)(font "Arial" ))
+	(text "inst13" (rect 8 112 37 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -629,13 +629,13 @@ applicable agreement for further details.
 (symbol
 	(rect 608 1344 800 1472)
 	(text "H" (rect 5 0 13 14)(font "Arial" (font_size 8)))
-	(text "inst9" (rect 8 112 31 124)(font "Arial" ))
+	(text "inst14" (rect 8 112 37 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
@@ -750,21 +750,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 608 1104)
-	(pt 408 1104)
-	(bus)
-)
-(connector
-	(pt 408 968)
-	(pt 408 1104)
-	(bus)
-)
-(connector
-	(pt 408 1104)
-	(pt 408 1240)
-	(bus)
-)
-(connector
 	(pt 352 176)
 	(pt 376 176)
 	(bus)
@@ -813,11 +798,6 @@ applicable agreement for further details.
 	(pt 560 1000)
 )
 (connector
-	(text "LOAD" (rect 570 1120 599 1132)(font "Arial" ))
-	(pt 608 1136)
-	(pt 560 1136)
-)
-(connector
 	(text "LOAD" (rect 562 1256 591 1268)(font "Arial" ))
 	(pt 608 1272)
 	(pt 552 1272)
@@ -861,11 +841,6 @@ applicable agreement for further details.
 	(text "CLOCK" (rect 570 1000 607 1012)(font "Arial" ))
 	(pt 608 1016)
 	(pt 560 1016)
-)
-(connector
-	(text "CLOCK" (rect 570 1136 607 1148)(font "Arial" ))
-	(pt 608 1152)
-	(pt 560 1152)
 )
 (connector
 	(text "CLOCK" (rect 562 1272 599 1284)(font "Arial" ))
@@ -934,12 +909,6 @@ applicable agreement for further details.
 	(text "MIR[35..0]" (rect 546 968 597 980)(font "Arial" ))
 	(pt 608 984)
 	(pt 536 984)
-	(bus)
-)
-(connector
-	(text "MIR[35..0]" (rect 546 1104 597 1116)(font "Arial" ))
-	(pt 608 1120)
-	(pt 536 1120)
 	(bus)
 )
 (connector
@@ -1023,27 +992,58 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 800 1104)
-	(pt 1184 1104)
-	(bus)
-)
-(connector
 	(pt 1184 824)
 	(pt 1184 968)
 	(bus)
 )
 (connector
-	(pt 800 1240)
-	(pt 1184 1240)
+	(pt 408 1096)
+	(pt 608 1096)
+	(bus)
+)
+(connector
+	(text "LOAD" (rect 570 1112 599 1124)(font "Arial" ))
+	(pt 608 1128)
+	(pt 560 1128)
+)
+(connector
+	(text "CLOCK" (rect 570 1128 607 1140)(font "Arial" ))
+	(pt 608 1144)
+	(pt 560 1144)
+)
+(connector
+	(text "MIR[35..0]" (rect 546 1096 597 1108)(font "Arial" ))
+	(pt 608 1112)
+	(pt 536 1112)
+	(bus)
+)
+(connector
+	(pt 1184 1096)
+	(pt 800 1096)
+	(bus)
+)
+(connector
+	(pt 408 968)
+	(pt 408 1096)
+	(bus)
+)
+(connector
+	(pt 408 1096)
+	(pt 408 1240)
 	(bus)
 )
 (connector
 	(pt 1184 968)
-	(pt 1184 1104)
+	(pt 1184 1096)
 	(bus)
 )
 (connector
-	(pt 1184 1104)
+	(pt 1184 1096)
+	(pt 1184 1240)
+	(bus)
+)
+(connector
+	(pt 800 1240)
 	(pt 1184 1240)
 	(bus)
 )
@@ -1054,11 +1054,11 @@ applicable agreement for further details.
 (junction (pt 408 824))
 (junction (pt 408 968))
 (junction (pt 408 1240))
-(junction (pt 408 1104))
 (junction (pt 1184 272))
 (junction (pt 1184 408))
 (junction (pt 1184 544))
 (junction (pt 1184 680))
 (junction (pt 1184 824))
 (junction (pt 1184 968))
-(junction (pt 1184 1104))
+(junction (pt 408 1096))
+(junction (pt 1184 1096))

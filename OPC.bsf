@@ -26,9 +26,9 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "IN_C{31..0]" (rect 0 0 62 14)(font "Arial" (font_size 8)))
-		(text "IN_C{31..0]" (rect 21 27 83 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
