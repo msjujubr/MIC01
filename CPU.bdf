@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 56 192 256 208)
 	(text "INPUT" (rect 157 0 185 10)(font "Arial" (font_size 6)))
-	(text "PROG_MEM_IN[7..0]" (rect 5 0 111 12)(font "Arial" ))
+	(text "PROG_MEM_IN[7..0]" (rect 5 0 110 12)(font "Arial" ))
 	(pt 200 8)
 	(drawing
 		(line (pt 116 12)(pt 141 12))
@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 88 160 256 176)
+	(rect 88 144 256 160)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "LOADN" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 88 144 256 160)
+	(rect 88 160 256 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "LOADN" (rect 5 0 43 12)(font "Arial" ))
+	(text "CLOCK" (rect 5 0 43 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -149,9 +149,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1128 224 1304 240)
+	(rect 1128 224 1347 240)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DM_en_write" (rect 90 0 152 12)(font "Arial" ))
+	(text "DATA_MEM_write_enable" (rect 90 0 213 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -165,9 +165,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 640 160 816 176)
+	(rect 640 144 863 160)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DM_OUT[31..0]" (rect 90 0 166 12)(font "Arial" ))
+	(text "DATA_MEM_ADDR[31..0]" (rect 90 0 217 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -181,9 +181,25 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 640 144 835 160)
+	(rect 640 160 854 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "DM_ADRESS[31..0]" (rect 90 0 189 12)(font "Arial" ))
+	(text "DATA_MEM_OUT[31..0]" (rect 90 0 208 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 688 288 864 304)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "MBR_OUT[7..0]" (rect 90 0 167 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -378,11 +394,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 624 200)
-	(pt 848 200)
-	(bus)
-)
-(connector
 	(pt 848 248)
 	(pt 824 248)
 )
@@ -484,5 +495,26 @@ applicable agreement for further details.
 	(pt 1128 216)
 	(bus)
 )
+(connector
+	(pt 688 296)
+	(pt 632 296)
+	(bus)
+)
+(connector
+	(pt 632 200)
+	(pt 632 296)
+	(bus)
+)
+(connector
+	(pt 624 200)
+	(pt 632 200)
+	(bus)
+)
+(connector
+	(pt 632 200)
+	(pt 848 200)
+	(bus)
+)
 (junction (pt 344 168))
 (junction (pt 1088 216))
+(junction (pt 632 200))
