@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -72 8 104 24)
+	(rect -72 48 104 64)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "INPUT_B[31..0]" (rect 5 0 82 12)(font "Arial" ))
 	(pt 176 8)
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -80 32 104 48)
+	(rect -96 32 88 48)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
 	(text "INPUT_SELECT" (rect 5 0 85 12)(font "Arial" ))
 	(pt 184 8)
@@ -135,7 +135,7 @@ applicable agreement for further details.
 	(input)
 	(rect -80 280 104 296)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "OUT_A_ENABLE" (rect 5 0 89 12)(font "Arial" ))
+	(text "OUT_A_ENABLE" (rect 5 0 88 12)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -151,7 +151,7 @@ applicable agreement for further details.
 	(input)
 	(rect -80 304 104 320)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "OUT_B_ENABLE" (rect 5 0 89 12)(font "Arial" ))
+	(text "OUT_B_ENABLE" (rect 5 0 88 12)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -432,7 +432,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 80 72 128 104)
+	(rect 104 -8 152 24)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -587,19 +587,6 @@ applicable agreement for further details.
 	(pt 104 -8)
 	(pt 152 -8)
 	(bus)
-)
-(connector
-	(pt 104 16)
-	(pt 136 16)
-	(bus)
-)
-(connector
-	(pt 104 40)
-	(pt 120 40)
-)
-(connector
-	(pt 120 8)
-	(pt 152 8)
 )
 (connector
 	(pt 104 136)
@@ -808,10 +795,6 @@ applicable agreement for further details.
 	(pt 280 424)
 )
 (connector
-	(pt 128 88)
-	(pt 144 88)
-)
-(connector
 	(pt 416 168)
 	(pt 280 168)
 )
@@ -822,44 +805,6 @@ applicable agreement for further details.
 (connector
 	(pt 280 168)
 	(pt 280 232)
-)
-(connector
-	(pt 120 8)
-	(pt 120 40)
-)
-(connector
-	(pt 120 40)
-	(pt 120 64)
-)
-(connector
-	(pt 120 64)
-	(pt 56 64)
-)
-(connector
-	(pt 80 88)
-	(pt 56 88)
-)
-(connector
-	(pt 56 88)
-	(pt 56 64)
-)
-(connector
-	(pt 136 16)
-	(pt 136 40)
-	(bus)
-)
-(connector
-	(pt 136 40)
-	(pt 152 40)
-	(bus)
-)
-(connector
-	(pt 144 56)
-	(pt 152 56)
-)
-(connector
-	(pt 144 88)
-	(pt 144 56)
 )
 (connector
 	(pt 832 160)
@@ -886,7 +831,24 @@ applicable agreement for further details.
 	(pt 216 48)
 	(bus)
 )
-(junction (pt 120 40))
+(connector
+	(pt 104 56)
+	(pt 152 56)
+	(bus)
+)
+(connector
+	(pt 104 40)
+	(pt 104 8)
+)
+(connector
+	(pt 88 40)
+	(pt 104 40)
+)
+(connector
+	(pt 104 40)
+	(pt 152 40)
+)
 (junction (pt 280 232))
 (junction (pt 280 296))
 (junction (pt 280 168))
+(junction (pt 104 40))

@@ -185,7 +185,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 608 256 640 288)
+	(rect 568 256 600 288)
 	(text "GND" (rect 6 8 16 29)(font "Arial" (font_size 6))(vertical))
 	(text "inst2" (rect -1 3 11 26)(font "Arial" )(vertical)(invisible))
 	(port
@@ -358,16 +358,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 640 272)
-	(pt 688 272)
-	(bus)
-)
-(connector
-	(pt 688 272)
-	(pt 704 272)
-	(bus)
-)
-(connector
 	(pt 672 288)
 	(pt 704 288)
 )
@@ -386,6 +376,16 @@ applicable agreement for further details.
 (connector
 	(pt 672 296)
 	(pt 672 384)
+)
+(connector
+	(pt 688 272)
+	(pt 704 272)
+	(bus)
+)
+(connector
+	(pt 600 272)
+	(pt 688 272)
+	(bus)
 )
 (junction (pt 688 272))
 (junction (pt 672 296))

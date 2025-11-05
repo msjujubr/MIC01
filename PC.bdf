@@ -349,11 +349,6 @@ applicable agreement for further details.
 	(pt 408 296)
 )
 (connector
-	(text "MIR[7]" (rect 554 296 587 308)(font "Arial" ))
-	(pt 536 312)
-	(pt 696 312)
-)
-(connector
 	(pt 624 344)
 	(pt 696 344)
 )
@@ -437,5 +432,10 @@ applicable agreement for further details.
 (connector
 	(pt 608 248)
 	(pt 696 248)
+)
+(connector
+	(text "MIR[9]" (rect 554 296 587 308)(font "Arial" ))
+	(pt 536 312)
+	(pt 696 312)
 )
 (junction (pt 632 232))

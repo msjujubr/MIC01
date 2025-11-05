@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 88 160 256 176)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLOCK" (rect 5 0 43 12)(font "Arial" ))
+	(text "CLOCK" (rect 5 0 42 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -197,7 +197,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 688 288 864 304)
+	(rect 688 304 864 320)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "MBR_OUT[7..0]" (rect 90 0 167 12)(font "Arial" ))
 	(pt 0 8)
@@ -212,7 +212,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 848 168 1048 296)
+	(rect 864 168 1064 296)
 	(text "CONTROL_UNIT" (rect 5 0 95 14)(font "Arial" (font_size 8)))
 	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
 	(port
@@ -394,14 +394,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 848 248)
-	(pt 824 248)
-)
-(connector
-	(pt 824 96)
-	(pt 824 248)
-)
-(connector
 	(pt 824 96)
 	(pt 344 96)
 )
@@ -428,24 +420,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 848 216)
-	(pt 728 216)
-)
-(connector
 	(pt 624 264)
 	(pt 728 264)
-)
-(connector
-	(pt 728 216)
-	(pt 728 264)
-)
-(connector
-	(pt 848 232)
-	(pt 744 232)
-)
-(connector
-	(pt 744 280)
-	(pt 744 232)
 )
 (connector
 	(pt 624 280)
@@ -460,15 +436,6 @@ applicable agreement for further details.
 	(pt 624 152)
 	(pt 640 152)
 	(bus)
-)
-(connector
-	(pt 1048 200)
-	(pt 1128 200)
-	(bus)
-)
-(connector
-	(pt 1048 232)
-	(pt 1128 232)
 )
 (connector
 	(pt 384 216)
@@ -486,7 +453,43 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1048 216)
+	(pt 632 312)
+	(pt 688 312)
+	(bus)
+)
+(connector
+	(pt 632 200)
+	(pt 632 312)
+	(bus)
+)
+(connector
+	(pt 824 96)
+	(pt 824 248)
+)
+(connector
+	(pt 728 264)
+	(pt 728 216)
+)
+(connector
+	(pt 744 280)
+	(pt 744 232)
+)
+(connector
+	(pt 1128 200)
+	(pt 1064 200)
+	(bus)
+)
+(connector
+	(pt 1128 232)
+	(pt 1064 232)
+)
+(connector
+	(pt 624 200)
+	(pt 632 200)
+	(bus)
+)
+(connector
+	(pt 1064 216)
 	(pt 1088 216)
 	(bus)
 )
@@ -496,24 +499,21 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 688 296)
-	(pt 632 296)
+	(pt 632 200)
+	(pt 864 200)
 	(bus)
 )
 (connector
-	(pt 632 200)
-	(pt 632 296)
-	(bus)
+	(pt 728 216)
+	(pt 864 216)
 )
 (connector
-	(pt 624 200)
-	(pt 632 200)
-	(bus)
+	(pt 744 232)
+	(pt 864 232)
 )
 (connector
-	(pt 632 200)
-	(pt 848 200)
-	(bus)
+	(pt 824 248)
+	(pt 864 248)
 )
 (junction (pt 344 168))
 (junction (pt 1088 216))

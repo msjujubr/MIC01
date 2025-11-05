@@ -217,7 +217,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 240 312 288 344)
+	(rect 224 312 272 344)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -392,6 +392,22 @@ applicable agreement for further details.
 		(circle (rect 28 68 36 76))
 	)
 )
+(symbol
+	(rect 552 328 568 360)
+	(text "VCC" (rect 0 5 10 25)(font "Arial" (font_size 6))(vertical))
+	(text "inst4" (rect 5 6 17 29)(font "Arial" )(vertical)(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 7 8 19 13)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 16)(pt 8 16))
+	)
+	(drawing
+		(line (pt 8 24)(pt 8 8))
+	)
+	(rotate90)
+)
 (connector
 	(pt 312 176)
 	(pt 344 176)
@@ -437,17 +453,9 @@ applicable agreement for further details.
 	(pt 320 512)
 )
 (connector
-	(pt 216 328)
-	(pt 240 328)
-)
-(connector
 	(text "MIR[5]" (rect 274 288 307 300)(font "Arial" ))
 	(pt 312 312)
 	(pt 280 312)
-)
-(connector
-	(pt 288 328)
-	(pt 312 328)
 )
 (connector
 	(pt 584 248)
@@ -496,11 +504,6 @@ applicable agreement for further details.
 	(pt 520 328)
 )
 (connector
-	(text "MIR[6]" (rect 554 328 587 340)(font "Arial" ))
-	(pt 584 344)
-	(pt 544 344)
-)
-(connector
 	(pt 808 216)
 	(pt 872 216)
 	(bus)
@@ -509,5 +512,17 @@ applicable agreement for further details.
 	(pt 808 232)
 	(pt 872 232)
 	(bus)
+)
+(connector
+	(pt 584 344)
+	(pt 568 344)
+)
+(connector
+	(pt 216 328)
+	(pt 224 328)
+)
+(connector
+	(pt 272 328)
+	(pt 312 328)
 )
 (junction (pt 392 312))
