@@ -51,6 +51,20 @@ applicable agreement for further details.
 		(text "OUTPUT[31..0]" (rect 105 27 187 41)(font "Arial" (font_size 8)))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "N" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "N" (rect 179 43 187 57)(font "Arial" (font_size 8)))
+		(line (pt 208 48)(pt 192 48))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "Z" (rect 0 0 8 14)(font "Arial" (font_size 8)))
+		(text "Z" (rect 179 59 187 73)(font "Arial" (font_size 8)))
+		(line (pt 208 64)(pt 192 64))
+	)
 	(drawing
 		(rectangle (rect 16 16 192 80))
 	)
