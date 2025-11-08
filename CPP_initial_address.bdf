@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(output)
-	(rect 544 296 721 312)
+	(rect 560 200 737 216)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "CPP_INIT[31..0]" (rect 90 0 171 12)(font "Arial" ))
 	(pt 0 8)
@@ -36,7 +36,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 320 240 352 256)
+	(rect 336 144 368 160)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "inst" (rect 3 5 20 17)(font "Arial" )(invisible))
 	(port
@@ -51,7 +51,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 328 416 360 448)
+	(rect 344 320 376 352)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst1" (rect 3 21 26 33)(font "Arial" )(invisible))
 	(port
@@ -68,7 +68,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 376 328 424 360)
+	(rect 392 232 440 264)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -92,7 +92,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 368 256 416 288)
+	(rect 384 160 432 192)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst3" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -116,7 +116,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 376 360 424 392)
+	(rect 392 264 440 296)
 	(text "WIRE" (rect 1 0 24 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
 	(port
@@ -140,50 +140,50 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 336 256)
-	(pt 336 272)
+	(pt 352 160)
+	(pt 352 176)
 )
 (connector
-	(pt 336 272)
-	(pt 368 272)
+	(pt 352 176)
+	(pt 384 176)
 )
 (connector
-	(pt 376 344)
-	(pt 344 344)
+	(pt 392 248)
+	(pt 360 248)
 )
 (connector
-	(pt 376 376)
-	(pt 344 376)
+	(pt 392 280)
+	(pt 360 280)
 )
 (connector
-	(pt 544 304)
-	(pt 504 304)
+	(pt 560 208)
+	(pt 520 208)
 	(bus)
 )
 (connector
-	(text "CPP_INIT[7]" (rect 443 256 505 268)(font "Arial" ))
-	(pt 416 272)
-	(pt 464 272)
+	(text "CPP_INIT[3..0]" (rect 467 232 542 244)(font "Arial" ))
+	(pt 440 248)
+	(pt 488 248)
 	(bus)
 )
 (connector
-	(text "CPP_INIT[6..0]" (rect 451 328 526 340)(font "Arial" ))
-	(pt 424 344)
-	(pt 472 344)
+	(text "CPP_INIT[9..4]" (rect 459 160 534 172)(font "Arial" ))
+	(pt 432 176)
+	(pt 480 176)
 	(bus)
 )
 (connector
-	(text "CPP_INIT[31..8]" (rect 451 360 532 372)(font "Arial" ))
-	(pt 424 376)
-	(pt 472 376)
+	(text "CPP_INIT[31..10]" (rect 467 264 554 276)(font "Arial" ))
+	(pt 440 280)
+	(pt 488 280)
 	(bus)
 )
 (connector
-	(pt 344 344)
-	(pt 344 376)
+	(pt 360 248)
+	(pt 360 280)
 )
 (connector
-	(pt 344 376)
-	(pt 344 416)
+	(pt 360 280)
+	(pt 360 320)
 )
-(junction (pt 344 376))
+(junction (pt 360 280))
